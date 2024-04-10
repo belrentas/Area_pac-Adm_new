@@ -10,6 +10,7 @@
     text-decoration: none;
     scroll-behavior: smooth;
     transition: all .3s ease-in-out;
+    
 }
 :root {
     --rosaForte: #EE4664;
@@ -77,7 +78,7 @@ header {
 
 /* _____________________________BODY_________________________________ */
 
-#QD-brnc{
+#lateral-branca{
 
     height: 1300px;
     width: 500px;
@@ -85,12 +86,12 @@ header {
     
 }
 
-#cons{
-    color: #fff;
+#links{
+    color: var(--branco);
 
 }
 
-.qd-all{
+.quadro-lateral{
 
     background-color: var(--branco);
     width: 100%;
@@ -100,7 +101,7 @@ header {
     flex-direction: column;
 }
 
-#qd-brnc-txt{
+#texto-quadro-lateral{
 
     font-size: 30px;
     color: #2F2F2F;
@@ -110,7 +111,7 @@ header {
    
 }
 
-#qd-brnc-ttl{
+#titulo-quadro-lateral{
 
     font-size: 25px;
     color:  #BEBEBE;
@@ -119,7 +120,7 @@ header {
     
 }
 
-#all{
+#body-principal{
     display: flex;
     
 }
@@ -156,11 +157,11 @@ header {
     padding-top: 40px;
 }
 
-#rs-ex{
+#resultado-exames{
     color: #FF7B92;
 
 }
-.qdinhos{
+.listas-exames{
 
     display: flex;
     align-items: center;
@@ -171,7 +172,7 @@ header {
     padding-left: 20px;
 
 }
-#prm-box{
+#box-branca{
 
     width: 90px;
     height: 85px;
@@ -180,7 +181,7 @@ header {
 
 }
 
-#ck-box{
+#check-box{
 
     width: 30px;
     height: 30px;
@@ -189,7 +190,7 @@ header {
     margin-right: 10px;
 }
 
-#scd-box{
+#posicao-txt{
 
     border-left: 2px solid var(--rosaClaro);
     border-right: 2px solid var(--rosaClaro);
@@ -197,30 +198,45 @@ header {
     width: 370px;
 }
 
-#dt-txt{
+#data-txt{
 
     color: #949494;
     font-size: 15px;
 }
 
-#Med-txt{
+#Medico-txt{
 
     color: var(--rosaMedio);
     font-size: 25px;
 
 }
 
-#trc-box{
+#posicao-especialidade{
 
     align-items: center;
     font-size: larger;
 }
 
-#txt_mac{
+#txt-especialidade{
 
     padding-left: 15px;
 }
 
+@media(max-width: 1500px){
+    #qd-exames{
+        width: 100%;
+        padding-left: 10%;
+    }
+
+    #header-infos{
+        width: 100%;
+    }
+   
+    .listas-exames{
+        margin-right: 15%;
+
+    }
+    
 
 /* _____________________________FOOTER_________________________________ */
 

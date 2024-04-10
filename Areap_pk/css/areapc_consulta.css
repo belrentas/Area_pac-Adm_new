@@ -244,6 +244,22 @@ header {
 
     color: #fff;
 }
+
+
+@media(max-width: 1500px){
+    #qd-exames{
+        width: 100%;
+        padding-left: 10%;
+    }
+
+    #header-infos{
+        width: 100%;
+    }
+   
+    .listas-exames{
+        margin-right: 15%;
+
+    }
 /* _____________________________FOOTER_________________________________ */
 
 

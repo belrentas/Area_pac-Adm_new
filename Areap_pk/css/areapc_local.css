@@ -166,6 +166,23 @@ header {
     width: 1200px;
     
 }
+@media(max-width: 1500px){
+    #local{
+        width: 100%;
+        
+    }
+
+    #header-infos{
+        width: 100%;
+    }
+
+    #mapa{
+
+        height: 300px;
+        width: 800px;
+        
+    }
+    
 /* ____________________________FOOTER_________________________________ */
 
 
