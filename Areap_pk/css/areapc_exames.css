@@ -223,6 +223,10 @@ header {
 }
 
 @media(max-width: 1500px){
+
+    *{
+        font-size: medium;
+    }
     #qd-exames{
         width: 100%;
         padding-left: 10%;
@@ -236,7 +240,32 @@ header {
         margin-right: 15%;
 
     }
+
+    #titulo-quadro-lateral{
+
+        padding-left: 10%;
+        font-size: medium;
+        padding-bottom: 10%;
+    }
     
+    #texto-quadro-lateral{
+
+        padding-left: 10%;
+        font-size: larger;
+
+    }
+
+    #data-txt{
+        font-size: small;
+    }
+
+    #Medico-txt{
+        font-size: larger;
+    }
+    #img-exame{
+        width: 80%;
+        height: 80%;
+    }
 
 /* _____________________________FOOTER_________________________________ */
 

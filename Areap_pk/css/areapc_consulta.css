@@ -77,7 +77,7 @@ header {
 
 /* _____________________________BODY_________________________________ */
 
-#QD-brnc{
+#lateral-branca{
 
     height: 1300px;
     width: 500px;
@@ -85,7 +85,7 @@ header {
     
 }
 
-.qd-all{
+.quadro-lateral{
 
     background-color: var(--branco);
     width: 100%;
@@ -95,7 +95,7 @@ header {
     flex-direction: column;
 }
 
-#qd-brnc-txt{
+#texto-quadro-lateral{
 
     font-size: 30px;
     color: #2F2F2F;
@@ -105,7 +105,7 @@ header {
    
 }
 
-#qd-brnc-ttl{
+#titulo-quadro-lateral{
 
     font-size: 25px;
     color:  #BEBEBE;
@@ -114,7 +114,7 @@ header {
     
 }
 
-#all{
+#body-principal{
     display: flex;
     
 }
@@ -151,11 +151,11 @@ header {
     padding-top: 40px;
 }
 
-#cons{
+#consulta{
     color: #FF7B92;
 
 }
-.qdinhos{
+.lista-consultas{
 
     display: flex;
     align-items: center;
@@ -166,7 +166,7 @@ header {
     padding-left: 20px;
 
 }
-#prm-box{
+#box-branca{
 
     width: 120px;
     height: 85px;
@@ -175,7 +175,7 @@ header {
 
 }
 
-#ck-box{
+#check-box{
 
     width: 30px;
     height: 30px;
@@ -184,7 +184,7 @@ header {
     margin-right: 10px;
 }
 
-#scd-box{
+#posicao-txt{
 
     border-left: 2px solid var(--rosaClaro);
     border-right: 2px solid var(--rosaClaro);
@@ -193,32 +193,32 @@ header {
     width: 360px;
 }
 
-#dt-txt{
+#data-txt{
 
     color: #949494;
-    font-size: 15px;
+    
 }
 
-#Med-txt{
+#Medico-txt{
 
     color: var(--rosaMedio);
     font-size: 25px;
 
 }
 
-#trc-box{
+#posicao-especialidade{
 
     align-items: center;
     
 }
 
-#txt_mac{
+#especialidade{
 
     padding-left: 15px;
     font-size: 20px;
 }
 
-#data_bx{
+#data-box{
 
     display: flex;
     align-items: center;
@@ -230,6 +230,7 @@ header {
 
     display: flex;
     padding-left: 150px;
+    padding-bottom: 58%;
     
 }
 
@@ -240,16 +241,23 @@ header {
     cursor: pointer;
 }
 
-#link_areapc{
+#links{
 
     color: #fff;
 }
 
 
 @media(max-width: 1500px){
+
+    *{
+        font-size: medium;
+    }
     #qd-exames{
         width: 100%;
-        padding-left: 10%;
+        display: flex;
+        padding-top: 40px;
+        padding-left: 100px;
+
     }
 
     #header-infos{
@@ -259,6 +267,78 @@ header {
     .listas-exames{
         margin-right: 15%;
 
+    }
+
+    #titulo-quadro-lateral{
+
+        padding-left: 10%;
+        font-size: medium;
+        padding-bottom: 10%;
+    }
+    
+    #texto-quadro-lateral{
+
+        padding-left: 10%;
+        font-size: larger;
+
+    }
+
+    #data-txt{
+        font-size: small;
+    }
+
+    #Medico-txt{
+        font-size: larger;
+    }
+    #img-exame{
+        width: 80%;
+        height: 80%;
+    }
+
+    .lista-consultas{
+
+        width: 800px;
+        
+    }
+    
+    #box-branca{
+
+        width: 50px;
+    }
+
+
+    #btn_add{
+        display: flex;
+        padding-left: 3%;
+        padding-top: 1.5%;
+
+        width: 100px;
+        height: 85px;
+    }
+
+    #button{
+        width: 10px;
+        height: 10px;
+    }
+
+    #img-button{
+        height: 50px;
+        width: 50px;
+    }
+
+    #lateral-branca{
+
+        width: 500px;
+    }
+
+    #data-box{
+
+        padding-left: 180px;
+    }
+    
+    #posicao-txt{
+        padding: 5px;
+        width: 300px;
     }
 /* _____________________________FOOTER_________________________________ */
 
