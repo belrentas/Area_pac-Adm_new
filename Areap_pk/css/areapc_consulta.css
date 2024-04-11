@@ -147,8 +147,10 @@ header {
     background-color: #f7e6e9;
     width: 100%;
     height: 970px;
-    justify-content: center;
+    align-items: center;
     padding-top: 40px;
+    flex-direction: column;
+    gap: 10px;
 }
 
 #consulta{
@@ -229,8 +231,7 @@ header {
 #btn_add{
 
     display: flex;
-    padding-left: 150px;
-    padding-bottom: 58%;
+    padding-left: 80%
     
 }
 
@@ -253,10 +254,12 @@ header {
         font-size: medium;
     }
     #qd-exames{
-        width: 100%;
+        width: 1000px;
         display: flex;
-        padding-top: 40px;
-        padding-left: 100px;
+        padding: 0px;
+        align-items: center;
+        padding-top: 20px;
+        font-size: medium;
 
     }
 
@@ -291,7 +294,7 @@ header {
         font-size: larger;
     }
     #img-exame{
-        width: 80%;
+        width: 80%; 
         height: 80%;
     }
 
@@ -309,7 +312,7 @@ header {
 
     #btn_add{
         display: flex;
-        padding-left: 3%;
+        padding-left: 82%;
         padding-top: 1.5%;
 
         width: 100px;
